@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+body{
+	padding: 0;
+	margin: 0;
+	background: url(wel.jpg) center no-repeat fixed;
+	background-size: cover;
+	color: white;
+	font-family: Exo;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	margin-left: 90px;
+	font-size: 20px;
+}
+
+a:hover{
+	color: white;
+}
+
+div{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -90px;
+}

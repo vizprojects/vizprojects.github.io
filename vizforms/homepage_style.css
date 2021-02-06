@@ -1,0 +1,14 @@
+div.row.well{
+    padding: 2px;
+    background-color: #74b9ff
+}
+
+a{
+    color: #ffffff;
+    font-family: Georgia, serif;
+    font-size: 24px;
+}
+a:hover{
+    text-decoration: none;
+    color: #576574;
+}

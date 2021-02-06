@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+
+.container-fluid{
+    height: 720px;
+    background: url(wel.jpg);
+    background-size: cover;
+}
+
+.form-container{
+   margin-top: 60px; 
+   padding: 30px 60px;
+   box-shadow: 17px 21px 84px 33px rgba(0,0,0,0.75);
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    margin-bottom: 50px; 
+}
+
+.form-control, button{  
+    font-family: 'Exo', sans-serif;
+}
+
+button{
+    margin-top: 60px;
+}
+
+p>a{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+p>a:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+.home{
+    font-size: 20px;
+    margin-left: 290px;
+}
+
+.error{
+    color: white;
+    display: none;
+}
+

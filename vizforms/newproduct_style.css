@@ -1,0 +1,13 @@
+body{
+    background: url(newpro.jpg) no-repeat center ;
+    background-size:cover; 
+}
+
+.form-container{ 
+    margin-top: 40px; 
+    padding: 30px 50px;
+    box-shadow: 22px 15px 18px 1px rgba(0,0,0,0.68);;
+}
+#option-1 {
+    background-color: red;
+  }
