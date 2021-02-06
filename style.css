@@ -1,0 +1,300 @@
+.navbar{
+	margin: 0;
+	border-radius: 0;
+}
+
+.navbar-header{
+	padding-left: 20px; 
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: #ffdd59;
+	font-family: Merriweather;
+}
+
+.navbar-inverse .navbar-brand{
+	font-family: Londrina Outline;
+	color: #ffdd59;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+
+.brand:hover{
+	color: #1dd1a1;
+	font-size: 25px;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.mainpage{
+	height: 520px;
+	margin-top: 100px;
+}
+
+
+.name{
+	margin-top: 170px;
+	font-family: Bungee Shade;
+	color: black;
+	font-size: 80px;
+	font-weight: 600;
+	margin-left: 100px;
+}
+
+.myQuote{
+	margin-top:70px;
+	margin-left: 200px;
+	font-family: Cookie;
+	font-size: 20px;
+}
+
+.heading{
+	font-family: Stardos Stencil;
+	font-size: 50px;
+}
+
+#skills>h1{
+	margin-top: 50px;
+}
+
+#myWorks>h1{
+	margin-top: 50px;
+}
+
+.resimage{
+	padding-left: 150px;
+	clear: both;
+	margin-top: 30px;
+}
+
+.signimage{
+	margin-top: 80px;
+	margin-bottom: 50px;
+	clear: both;
+}
+
+
+#icon{
+	width: 492px;
+	height: 270px;
+	margin: 1% auto;
+}
+
+#imageholder{
+	margin: 130px 0;
+}
+
+#myWorks{
+	margin-bottom: 50px;
+}
+
+#work{
+	
+	margin-top: 100px;
+	margin-bottom: 0;
+}
+
+.mobname{
+	font-family: Jacques Francois Shadow;
+	margin-top: 70px;
+	margin-bottom: 45px;	
+}
+
+.mobnamedescription,#work>.vizclikz>small{
+	font-size: 17px; 
+	font-family: Book Antiqua;
+}
+
+#formdescription{
+	font-size: 17px; 
+	font-family: Book Antiqua;
+}
+
+
+.plus{
+	font-family: Ruthie;
+}
+
+.motoimage{
+	padding-left: 0;	
+}
+
+.clikz{
+	font-family: 'Playball';
+	margin-top: 80px;
+	margin-bottom: 45px; 	
+}
+
+#animate{
+	-webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.forms{
+	font-family: 'Exo', sans-serif;
+	margin-top: 140px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.vizclikz{
+	margin-top: 120px;
+}
+
+
+.vizclikz-img{
+	margin-top: 40px;
+	margin-bottom: 70px;
+	padding-left: 50px;
+}
+
+#about>h1{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+p.text-justify.aboutthispage{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+p{
+	font-family: Georgia;
+	font-size: 140%;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 240%;
+}
+
+.abtimg{
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-bottom: 60px;
+	padding: 0;
+}
+
+blockquote>p{
+	font-family: Cookie;
+	text-align: right;
+}
+
+.joker{
+	padding-right: 50px;
+}
+
+
+#Connect{
+	height: 80px;  
+	background-color: #2d3436;
+	color: #ffffff;
+}
+
+.social{
+	margin-top: 23px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.social .text{
+	color: #ffffff;
+}
+
+.social .text:hover{
+	color: #cc8e35;
+}
+
+.project{
+	background: url(Images/bg2.jpeg) center no-repeat fixed;
+	background-size: cover;
+	color: white;
+}
+
+.main{
+	background-color: #FDC955;
+	margin-top: 0;
+}
+
+.block{
+	background-color: #d1ccc0;
+}
+
+blockquote.blockquote-reverse.joker{
+	border-right:0;
+}
+
+@media screen and (max-width: 768px){
+	.name{
+		margin-left: 0;
+		margin-top: 70px;
+	}
+
+	.myQuote{
+		font-size: 30px;
+	}
+
+	.resimage{
+		padding-left: 0;
+		margin-top: 50px;
+	}
+
+	#skills{
+		margin-top: 20px;
+	}
+
+	#imageholder{
+		margin-top: 30px;
+	}
+
+	.project{
+		background: url(Images/mobwal.jpg) no-repeat center fixed;
+	}
+
+	#myWorks{
+		margin-bottom: 0;
+	}
+
+	#work{
+		margin-top: 0;
+	}
+
+	.vizclikz{
+		margin-top: 20px;
+	}
+
+	.vizclikz-img{
+		padding-left: 0;
+		margin-bottom: 40px;
+	}
+
+	.clikz{
+		margin-top: 40px;
+	}
+
+	.forms{
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+
+	.signimage{
+		margin-top: 40px;
+	}
+
+	.abtimg{
+        margin-left:0;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    .joker{
+    	padding: 5px;
+    }
+
+    #animatename{
+    	-webkit-animation-duration: 0;
+  		-webkit-animation-iteration-count: 0;
+    }  
+}
