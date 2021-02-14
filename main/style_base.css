@@ -1,78 +1,30 @@
-
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
-
 .navbar{
 	margin: 0;
 	border-radius: 0;
-    background: transparent;
-    border: 0;
 }
 
-/*
 .navbar-header{
 	padding-left: 20px; 
-
 }
-*/
 
 .navbar-inverse .navbar-nav>li>a{
-    color: black;
-    font-family: Merriweather;
-    font-weight: bold;
-    display: inline-block;
-    position: relative;
-    letter-spacing: 0.15em;
-    padding: 15px 20px;
+	color: #ffdd59;
+	font-family: Merriweather;
 }
 
-.navbar-inverse .navbar-nav>li>a:after{
-    bottom: 0px;
-    content: '';
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: relative;
-    width: 0px;
-    background: black;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-   
-}
-
-.navbar-inverse .navbar-nav>li>a:hover:after{
-    width: 100%; 
-    left: 0;
-    
-}
-
-.navbar-inverse .navbar-nav>li>a:hover{
-    color: #c89666
-    
-}
-
-/*
 .navbar-inverse .navbar-brand{
 	font-family: Londrina Outline;
 	color: #ffdd59;
 }
-*/
 
 .nav-link{
     cursor: pointer;
 }
 
-/*
 .brand:hover{
 	color: #1dd1a1;
 	font-size: 25px;
 }
-*/
 
 .container-fluid {
 	padding: 0;
@@ -98,7 +50,6 @@ html,body
 	margin-left: 200px;
 	font-family: Cookie;
 	font-size: 20px;
-    color: #c89666;
 }
 
 .heading{
@@ -115,7 +66,7 @@ html,body
 }
 
 .resimage{
-	padding-left: 200px;
+	padding-left: 150px;
 	clear: both;
 	margin-top: 30px;
 }
@@ -201,14 +152,9 @@ html,body
 	padding-left: 50px;
 }
 
-.abtdiv {
-    width: 50%;
-    height: 450px;
-}
-
 #about>h1{
-	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 p.text-justify.aboutthispage{
@@ -225,8 +171,10 @@ p{
 }
 
 .abtimg{
-    height: 90%;
-    padding-left: 120px;
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-bottom: 60px;
+	padding: 0;
 }
 
 blockquote>p{
@@ -258,15 +206,15 @@ blockquote>p{
 .social .text:hover{
 	color: #cc8e35;
 }
-/*
+
 .project{
 	background: url(Images/bg2.jpeg) center no-repeat fixed;
 	background-size: cover;
 	color: white;
 }
-*/
+
 .main{
-	
+	background-color: #FDC955;
 	margin-top: 0;
 }
 
