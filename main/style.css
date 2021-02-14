@@ -200,12 +200,12 @@ html,body
 	margin-bottom: 70px;
 	padding-left: 50px;
 }
-
+/*
 .abtdiv {
     width: 50%;
     height: 450px;
 }
-
+*/
 #about>h1{
 	margin-top: 20px;
 	margin-bottom: 10px;
@@ -225,7 +225,7 @@ p{
 }
 
 .abtimg{
-    height: 90%;
+    height: 470px;
     padding-left: 120px;
 }
 
@@ -279,6 +279,18 @@ blockquote.blockquote-reverse.joker{
 }
 
 @media screen and (max-width: 768px){
+	.navbar{
+	margin: 0;
+	border-radius: 0;
+    background: black;
+    border: 0;
+	}
+	
+	.navbar-inverse .navbar-nav>li>a{
+    color: white;
+	}
+
+	
 	.name{
 		margin-left: 0;
 		margin-top: 70px;
@@ -286,6 +298,7 @@ blockquote.blockquote-reverse.joker{
 
 	.myQuote{
 		font-size: 30px;
+		margin-left:90px;
 	}
 
 	.resimage{
@@ -300,11 +313,11 @@ blockquote.blockquote-reverse.joker{
 	#imageholder{
 		margin-top: 30px;
 	}
-
+/*
 	.project{
 		background: url(Images/mobwal.jpg) no-repeat center fixed;
 	}
-
+*/
 	#myWorks{
 		margin-bottom: 0;
 	}
@@ -337,9 +350,10 @@ blockquote.blockquote-reverse.joker{
 
 	.abtimg{
         margin-left:0;
-        margin-top: 20px;
-        font-size: 10px;
+        margin-top: 0;
+        padding-left:0;
     }
+	
 
     .joker{
     	padding: 5px;
